@@ -157,9 +157,11 @@ button{
 	opacity:0;
 	z-index:999;
 	transition: all .3s ease-in-out;
+	pointer-events:none;
 }
 .showScrollTop{
 	opacity: 1;
+	pointer-events:all;
 }
 .scroll-to-top-btn-icon{
 	fill: none;
