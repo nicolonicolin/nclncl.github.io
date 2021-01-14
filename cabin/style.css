@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 	Cozy camping
-	About: A shiny new Blocs website.
+	About: Fake cabin website by Nicolò Nicolin. 
 	Author: Nicoló Nicolin
 	Version: 1.0
 	Built with Blocs
@@ -73,6 +73,42 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 .bloc-fill-screen .fill-bloc-bottom-edge{
 	align-self: flex-end;
+}
+
+
+/* Edge Dividers */
+
+.bloc-shape-divider{
+	position: absolute;
+	width:100%;
+	text-align:center;
+	left:0;
+	right:0;
+	z-index: 0;
+	display: flex;
+	pointer-events: none;
+}
+.svg-divider{
+	width:100%;
+	height:100px;
+	fill:#000000;
+}
+.bloc-divider-top{
+	top:-1px;
+	align-items: flex-start;
+}
+.bloc-divider-bottom{
+	bottom:-1px;
+	align-items: flex-end;
+}
+.bloc-divider-flip-x svg{
+	transform:scale(-1,1);
+}
+.bloc-divider-flip-y svg{
+	transform:scale(1,-1);
+}
+.bloc-divider-flip-x.bloc-divider-flip-y svg{
+	transform:scale(-1,-1);
 }
 
 
@@ -211,6 +247,13 @@ button{
 }
 
 
+/* = Forms
+-------------------------------------------------------------- */
+
+.form-control{
+	border-color:rgba(0,0,0,.1);
+	box-shadow:none;
+}
 
 
 
@@ -271,6 +314,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-style{
 	width:250px;
 	height:250px;
+}
+.bloc-divider-b-fill{
+	fill:rgba(148,82,0,0.28);
+	height:150px;
+}
+.bloc-divider-b-style{
+	height:60px;
+}
+.h1-bloc-1-style{
+	line-height:60px;
 }
 
 /* = Colour

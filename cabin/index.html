@@ -5,13 +5,13 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<link rel="canonical" href="http://setTheBaseURLInProjectSettings.com/index.html" />
+	<link rel="canonical" href="https://nclncl.ga/cabin/index.html/index.html" />
 	<meta name="robots" content="index, follow" />
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?576">
-	<link rel="stylesheet" type="text/css" href="style.css?4666">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?1081">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?7179">
+	<link rel="stylesheet" type="text/css" href="style.css?9804">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?4996">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <title>Home</title>
@@ -106,15 +106,15 @@
 
 <!-- bloc-1 -->
 <div class="bloc l-bloc" id="bloc-1">
-	<div class="container bloc-lg">
+	<div class="container bloc-lg bloc-no-padding-lg">
 		<div class="row">
 			<div class="col">
-				<h1 class="mg-md text-center">
+				<h1 class="mg-md text-center h1-bloc-1-style">
 					What a typical cabin includes
 				</h1>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row scroll-fx-zoom-pull scroll-fx-up-in-fade">
 			<div class="col-md-6">
 				<img src="img/lazyload-ph.png" data-src="img/Screenshot%202021-01-12%20at%201.32.04%20PM.jpg" class="img-fluid mx-auto d-block lazyload" alt="Screenshot%202021 01-12%20at%201.32.04%20PM" />
 			</div>
@@ -126,11 +126,11 @@
 					Don&rsquo;t worry the curtains will give you all the privacy you might need
 				</h5>
 				<p>
-					Bedsheets and pillows included. The bedsheets are changed every 4 days or whenever you request so.
+					Bedsheets and pillows included. The bedsheets are changed every new guests. For longer stays the bedsheets get changed every 4 days or whenever you request so.
 				</p>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row scroll-fx-zoom-pull scroll-fx-up-in-fade">
 			<div class="col-md-6 order-md-1">
 				<img src="img/lazyload-ph.png" data-src="img/Screenshot%202021-01-12%20at%201.48.04%20PM.jpg" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" />
 			</div>
@@ -143,7 +143,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row scroll-fx-zoom-pull scroll-fx-up-in-fade">
 			<div class="col-md-6">
 				<img src="img/lazyload-ph.png" data-src="img/Screenshot%202021-01-12%20at%201.52.01%20PM.jpg" class="img-fluid mx-auto d-block lazyload" alt="Screenshot%202021 01-12%20at%201.32.04%20PM" />
 			</div>
@@ -188,38 +188,81 @@
 <!-- ScrollToTop Button END-->
 
 
-<!-- bloc-3 -->
-<div class="bloc l-bloc" id="bloc-3">
+<!-- bloc-4 -->
+<div class="bloc l-bloc" id="bloc-4">
 	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-12 col-sm-4">
-				<h4 class="mg-md text-sm-left text-center">
-					About
-				</h4><a href="index.html" class="a-btn a-block footer-link">The Team</a><a href="index.html" class="a-btn a-block footer-link">Contact Us</a>
-				<p class="mg-md">
-					Mock up made by Nicolò Nicolin
-				</p>
-			</div>
-			<div class="col-12 col-sm-4">
-				<h4 class="mg-md text-center">
-					Book your cabin today!
-				</h4>
-				<div class="text-center">
-					<span class="icon-md fa fa-phone-alt"></span>
-					<h6 class="mg-md btn-resize-mode h6-style text-center">
-						+39 123 456 7890
-					</h6>
-				</div>
-			</div>
-			<div class="col-12 col-sm-4">
-				<h5 class="mg-md">
-					Brenzone, Lake Garda, Italy
-				</h5><img class="img-fluid img-style lazyload" src="img/lazyload-ph.png" data-src="img/Screenshot%202021-01-12%20at%202.10.58%20PM.jpg" alt="Screenshot%202021 01-12%20at%202.10.58%20PM" />
-				<div class="container-div-style">
-				</div>
+			<div class="col">
+				<form id="form_1" data-form-type="blocs-form" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+					<h2 class="mg-md text-center">
+						Request more informations today
+					</h2>
+					<div class="form-group">
+						<label>
+							Name
+						</label>
+						<input id="name" class="form-control" required />
+					</div>
+					<div class="form-group">
+						<label>
+							Email
+						</label>
+						<input id="email" class="form-control" type="email" data-error-validation-msg="Not a valid email address" required />
+					</div>
+					<div class="form-group">
+						<label>
+							Message
+						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" id="optin" data-validation-minchecked-message="You must agree to this before we can take your information." data-validation-minchecked-minchecked="1" name="optin" />
+						<label class="form-check-label">
+							We can send you product updates and offers via email. It is possible to opt-out at any time.
+						</label>
+					</div> 
+					<button class="bloc-button btn btn-d btn-lg btn-block" type="submit">
+						Submit
+					</button>
+				</form>
 			</div>
 		</div>
 	</div>
+</div>
+<!-- bloc-4 END -->
+
+<!-- bloc-3 -->
+<div class="bloc l-bloc" id="bloc-3">
+	<div class="bloc-shape-divider bloc-divider-bottom">
+		<svg class="svg-divider bloc-divider-b-fill" fill-rule="evenodd" preserveAspectRatio="none" viewBox="0 0 1000 250"><path d="M0,156S137.183,43.457,260,102C522.391,227.074,463.154,209.923,758,52c122.256-65.482,242,18,242,18V250H0V156Z"></path></svg>
+	</div>
+	<div class="container bloc-lg">
+			<div class="row">
+				<div class="col-12 col-sm-4">
+					<h4 class="mg-md text-sm-left text-center">
+						About
+					</h4><a href="index.html" class="a-btn a-block footer-link">The Team</a><a href="index.html" class="a-btn a-block footer-link">Contact Us</a>
+					<p class="mg-md">
+						Mock up made by Nicolò Nicolin
+					</p>
+				</div>
+				<div class="col-12 col-sm-4">
+					<h4 class="mg-md text-center">
+						Book your cabin today!
+					</h4>
+					<div class="text-center">
+						<span class="icon-md fa fa-phone-alt"></span>
+						<h6 class="mg-md btn-resize-mode h6-style text-center">
+							+39 123 456 7890
+						</h6>
+					</div>
+				</div>
+				<div class="col-12 col-sm-4">
+					<h5 class="mg-md">
+						Brenzone, Lake Garda, Italy
+					</h5><img class="img-fluid img-style lazyload" src="img/lazyload-ph.png" data-src="img/Screenshot%202021-01-12%20at%202.10.58%20PM.jpg" alt="Screenshot%202021 01-12%20at%202.10.58%20PM" />
+				</div>
+			</div>
+		</div>
 </div>
 <!-- bloc-3 END -->
 
@@ -229,10 +272,14 @@
 
 
 <!-- Additional JS -->
-<script src="./js/jquery-3.5.1.min.js?9214"></script>
-<script src="./js/bootstrap.bundle.min.js?578"></script>
-<script src="./js/blocs.min.js?6261"></script>
-<script src="./js/lazysizes.min.js" defer></script><!-- Additional JS END -->
+<script src="./js/jquery-3.5.1.min.js?7366"></script>
+<script src="./js/bootstrap.bundle.min.js?8556"></script>
+<script src="./js/blocs.min.js?430"></script>
+<script src="./js/jqBootstrapValidation.js"></script>
+<script src="./js/formHandler.js?7831"></script>
+<script src="./js/lazysizes.min.js" defer></script>
+<script src="./js/scrollFX.js?9867"></script>
+<!-- Additional JS END -->
 
 
 </body>
