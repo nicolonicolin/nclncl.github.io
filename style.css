@@ -37,11 +37,55 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding-right:0;
 }
 
+/* = Full Screen Blocs 
+-------------------------------------------------------------- */
 
-/* Sizes */
+.bloc-fill-screen{
+	min-height:100vh;
+	display: flex;
+	flex-direction: column;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.bloc-fill-screen > .container{
+	align-self: flex-middle;
+	flex-grow: 1;
+	display: flex;
+	flex-wrap: wrap;
+}
+.bloc-fill-screen > .container > .row{
+	flex-grow: 1;
+	align-self: center;
+	width:100%;
+}
+.bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge{
+	flex-grow: 0;
+}
+.bloc-fill-screen .fill-bloc-top-edge{
+	align-self: flex-start;
+}
+.bloc-fill-screen .fill-bloc-bottom-edge{
+	align-self: flex-end;
+}
 
-.bloc-lg{
-	padding:100px 20px;
+/* = Full Width Blocs 
+-------------------------------------------------------------- */
+
+.full-width-bloc{
+	padding-left:0;
+	padding-right:0;
+}
+.full-width-bloc .row{
+	margin-left:0;
+	margin-right:0;
+}
+.full-width-bloc .container{
+	width:100%;
+	max-width:100%!important;
+}
+.full-width-bloc .carousel img{
+	width:100%;
+	height:auto;
 }
 
 
@@ -73,12 +117,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	border-color:rgba(0,0,0,.3);
 }
 
-/* Row Margin Offsets */
-
-.voffset{
-	margin-top:30px;
-}
-
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -105,9 +143,25 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
+}
+img.mg-sm,img.mg-md,img.mg-lg{
+	margin-top: 0;
+}
+img.mg-sm{
+	margin-bottom:10px;
+}
+img.mg-md{
+	margin-bottom:30px;
+}
+img.mg-lg{
+	margin-bottom:50px;
 }
 
 /* = Buttons
@@ -187,25 +241,31 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h1-style{
 	font-size:35px;
+	font-family:"Roboto Slab";
+	font-weight:300;
 }
 .p-style{
 	width:100%;
 	font-size:15px;
 	line-height:22px;
+	font-family:"Roboto Slab";
 }
 .p-bloc-0-style{
 	line-height:22px;
+	font-family:"Roboto Slab";
+	color:#000000!important;
 }
 .centere{
 	justify-content:center;
 	text-align:left;
 }
 .button{
-	font-family:"Montserrat";
+	font-family:"Roboto Slab";
 	background-color:transparent;
 	color:#FDB10D!important;
 	font-size:16px;
 	text-align:justify;
+	font-weight:normal;
 }
 .button:hover{
 	font-family:"Montserrat";
@@ -213,6 +273,30 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:normal;
 	color:#0F203F!important;
 	background-color:transparent;
+}
+.h2-style{
+	font-family:"Roboto Slab";
+	color:#000000!important;
+}
+.p-3-style{
+	font-family:"Roboto Slab";
+	color:#000000!important;
+}
+.container-div-style{
+	width:100%;
+}
+.row{
+	text-align:center;
+	border-style:_popUpItemAction:;
+	justify-content:center;
+	align-items:center;
+}
+.bloc-divider-t-fill{
+	fill:transparent;
+}
+.test{
+	align-items:center;
+	justify-content:space-around;
 }
 
 /* = Colour
@@ -312,12 +396,32 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		text-align:center;
 		margin:auto auto auto auto;
 	}
+	.img-style{
+		height:219px;
+	}
+	
+}
+
+@media (max-width: 767px){
+	.img-style{
+		height:155px;
+	}
+	.text-right{
+	}
+	.text-left{
+	}
+	.text-center{
+	}
 	
 }
 
 @media (max-width: 575px){
 	.centere{
 		justify-content:center;
+	}
+	.img-style{
+		height:200px;
+		width:200px;
 	}
 	
 	/* Mobile Row Margin Offsets */
