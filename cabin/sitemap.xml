@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://nclncl.ga/cabin/index.html</loc>
-	<lastmod>2021-01-14</lastmod>
+	<lastmod>2021-02-16</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -17,18 +17,54 @@
 	<image:loc>https://nclncl.ga/cabin/index.html/img/Screenshot%202021-01-12%20at%201.52.01%20PM.jpg</image:loc>
 	<image:title>Screenshot%25202021%2001-12%2520at%25201.32.04%2520PM</image:title>
 	</image:image>
-	<image:image>
-	<image:loc>https://nclncl.ga/cabin/index.html/img/lucas-favre-3xVmlXhI4OY-unsplash.jpg</image:loc>
-	<image:title>placeholder%20image</image:title>
-	</image:image>
 	<video:video>
 	<video:content_loc>https://nclncl.ga/cabin/index.html/vid/Forest%20in%20Sintra.mp4</video:content_loc>
 	<video:title>Forest%20in%20Sintra</video:title>
 	</video:video>
-	<video:video>
-	<video:content_loc>https://nclncl.ga/cabin/index.html/vid/My%20Movie.mp4</video:content_loc>
-	<video:title>My%20Movie</video:title>
-	</video:video>
+	<image:image>
+	<image:loc>https://nclncl.ga/cabin/index.html/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://nclncl.ga/cabin/index.html/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://nclncl.ga/cabin/index.html</loc>
+	<lastmod>2021-02-16</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+	<image:loc>https://nclncl.ga/cabin/index.html/img/tower-electric-bikes-LEQ3xHaKpj8-unsplash.jpg</image:loc>
+	<image:title>tower%20electric-bikes-LEQ3xHaKpj8-unsplash</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://nclncl.ga/cabin/index.html/img/philip-hawkshaw-ljpzTWHDGyM-unsplash.jpg</image:loc>
+	<image:title>philip%20hawkshaw-ljpzTWHDGyM-unsplash</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://nclncl.ga/cabin/index.html/img/ronan-furuta-CdACjixWcV0-unsplash.jpg</image:loc>
+	<image:title>placeholder%20image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://nclncl.ga/cabin/index.html/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://nclncl.ga/cabin/index.html/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://nclncl.ga/cabin/index.html</loc>
+	<lastmod>2021-02-16</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+	<image:loc>https://nclncl.ga/cabin/index.html/img/placeholder-image.png</image:loc>
+	<image:title>placeholder%20image</image:title>
+	</image:image>
 	<image:image>
 	<image:loc>https://nclncl.ga/cabin/index.html/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>

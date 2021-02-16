@@ -43,6 +43,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-lg{
 	padding:100px 20px;
 }
+.bloc-sm{
+	padding:20px;
+}
 
 /* = Full Screen Blocs 
 -------------------------------------------------------------- */
@@ -73,42 +76,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 .bloc-fill-screen .fill-bloc-bottom-edge{
 	align-self: flex-end;
-}
-
-
-/* Edge Dividers */
-
-.bloc-shape-divider{
-	position: absolute;
-	width:100%;
-	text-align:center;
-	left:0;
-	right:0;
-	z-index: 0;
-	display: flex;
-	pointer-events: none;
-}
-.svg-divider{
-	width:100%;
-	height:100px;
-	fill:#000000;
-}
-.bloc-divider-top{
-	top:-1px;
-	align-items: flex-start;
-}
-.bloc-divider-bottom{
-	bottom:-1px;
-	align-items: flex-end;
-}
-.bloc-divider-flip-x svg{
-	transform:scale(-1,1);
-}
-.bloc-divider-flip-y svg{
-	transform:scale(1,-1);
-}
-.bloc-divider-flip-x.bloc-divider-flip-y svg{
-	transform:scale(-1,-1);
 }
 
 
@@ -197,6 +164,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -215,6 +185,10 @@ button{
 	outline: none!important;
 }
 
+.btn-xl{
+	padding: 16px 40px;
+	font-size: 28px;
+}
 .a-block{
 	width:100%;
 	text-align:left;
@@ -233,6 +207,8 @@ button{
 
 
 
+/* = Cards
+-------------------------------------------------------------- */
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
 	border-radius:0;
 }
@@ -287,7 +263,7 @@ button{
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"Lato";
+	font-family:"Roboto";
 	color:rgba(148,82,0,0.99)!important;
 	font-weight:400;
 }
@@ -299,21 +275,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding-bottom:10px;
 }
 .h1-style{
-	font-family:Lato;
+	font-family:Roboto;
 	font-weight:700;
 	font-size:40px;
 }
 .h3-style{
 	font-size:30px;
-	font-family:Lato;
+	font-family:Roboto;
 	font-weight:700;
 }
 .h6-style{
 	font-size:15px;
-}
-.img-style{
-	width:250px;
-	height:250px;
 }
 .bloc-divider-b-fill{
 	fill:rgba(148,82,0,0.28);
@@ -325,12 +297,61 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h1-bloc-1-style{
 	line-height:60px;
 }
+.quotes{
+	text-align:center;
+	font-family:"Roboto";
+	text-decoration:none;
+	text-transform:none;
+	font-size:20px;
+}
+.button{
+	color:#FEFFFF!important;
+	font-family:"Roboto";
+}
+.img-style{
+	height:167px;
+}
+.img-6-style{
+	height:170px;
+}
+.img-5-style{
+	height:240px;
+	width:328px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
 
 
+/* Button colour styles */
 
+.btn-brown-traditional{
+	background:#945305;
+	color:#FFFFFF!important;
+}
+.btn-brown-traditional:hover{
+	background:#764204!important;
+	color:#FFFFFF!important;
+}
+
+
+/* = Custom Bric Data
+-------------------------------------------------------------- */
+
+.img-text-overlay-container{
+	position:relative;
+}
+.text-label-overlay{
+	position:absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width:100%;
+	 text-align:center;
+	font-size:40px;
+}
+.text-overlay-light-text{
+	color:rgba(255,255,255,.5);
+}
 
 
 /* = Bloc Padding Multi Breakpoint
